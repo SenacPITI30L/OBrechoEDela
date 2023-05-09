@@ -80,10 +80,11 @@
     <Compile Include="Formularios\FrmCadastroUsuario.Designer.cs">
       <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
     </Compile>
-    <Compile Include="msdbDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>msdbDataSet.xsd</DependentUpon>
+    <Compile Include="Formularios\FrmAdicionaItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmAdicionaItem.Designer.cs">
+      <DependentUpon>FrmAdicionaItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\NovaVenda.cs" />
     <Compile Include="Classes\Program.cs" />
@@ -103,6 +104,9 @@
     <EmbeddedResource Include="Formularios\FrmCadastroUsuario.resx">
       <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmAdicionaItem.resx">
+      <DependentUpon>FrmAdicionaItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -112,17 +116,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="msdbDataSet.xsc">
-      <DependentUpon>msdbDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="msdbDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>msdbDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="msdbDataSet.xss">
-      <DependentUpon>msdbDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -35,7 +35,7 @@ namespace Brechó
         }
         private void btnNovaVenda_Click(object sender, EventArgs e)
         {
-            frmMetododePagamento vender = new frmMetododePagamento();
+            FrmAdicionaItem vender = new FrmAdicionaItem();
             vender.ShowDialog();
             
         }
